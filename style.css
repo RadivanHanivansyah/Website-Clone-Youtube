@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.navigasi-top {
+    display: flex;
+    margin-top: 10px;
+}
+
+.navigasi-top img {
+    width: 13%;
+}
+
+.navigasi-satu {
+    width: 20%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigasi-satu a {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.navigasi-satu a img {
+    width: 65%;
+}
+
+.navigasi-dua {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigasi-dua img {
+    width: 40%;
+    /* position: relative;
+    top: 1px; */
+}
+
+.navigasi-dua a {
+    display: flex;
+    position: relative;
+}
+
+.navigasi-dua a:nth-child(3) {
+    flex-grow: 10;
+    position: relative;
+    right: 30px;
+}
+
+.navigasi-dua form {
+    width: 80%;
+    height: 50%;
+}
+
+.navigasi-dua form input[type=text] {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.navigasi-tiga {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+    align-items: center;
+}
+
+.navigasi-tiga a {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigasi-tiga a img {
+    width: 40%;
+}
+
+.navigasi-tiga a:nth-child(3) {
+    width: 100%;
+}
