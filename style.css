@@ -66,6 +66,7 @@
 .navigasi-dua form {
     width: 80%;
     height: 60%;
+    display: flex;
 }
 
 .navigasi-dua form input[type=text] {
