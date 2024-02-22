@@ -99,3 +99,18 @@
 .navigasi-tiga a:nth-child(3) {
     width: 100%;
 }
+
+.content-utama {
+    display: flex;
+    margin-top: 30px;
+}
+
+.navbar {
+    border: 1px solid black;
+    flex: 1;
+}
+
+.main-content {
+    border: 1px solid black;
+    flex: 5;
+}
