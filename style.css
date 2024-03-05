@@ -253,18 +253,20 @@
 }
 
 .content {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .content img {
-    width: 350px;
-}
-
-.content.empat img:nth-child(1) {
-    width: 350px;
-    height: 233px;
+    width: 345px;
+    height: 225px;
+    border-radius: 15px;
 }
 
 .isi-content {
     border: 1px solid black;
+}
+
+.isi-content img {
+    width: 12%;
+    height: 5%;
 }
